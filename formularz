@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<html>
+<head>
+<meta charset="utf-8">
+<title> ZADANIE FORMULARZ </title>
+</head>
+<body bgcolor="#87CEFA">
+<center><h1>FORMULARZ-Zapytania o pracę</h1></center>
+<form enctype="text/plain" action="mailto:mkryniew@wp.pl" subject="formularz_dane" method="Post">
+<TABLE>
+<TR height="100">
+<TD width="500">
+<b>Proszę podać imię</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input name="imie" size="22">
+<br><br>
+<b>Proszę podać nazwisko i klasę</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp <input name="drugie" size="22">
+<br><br>
+<b>Numer telefonu</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="nazwisko" size="22">
+<br><br>
+<b>Adres e-mail</b>&nbsp &nbsp<input name="login" size="22"><nobr> <br>
+</TD>
+<TD width="300" >
+<center><font size="5" color="red"><b>Na jakim stonowisku w naszej firmie bierze pan/pani u dział w rekrytacji?</b></font></center><br>
+<center> <select>
+<option value="Pracownik działu sprzeadrzy">Pracownik działu sprzeadrzy</option>
+<option value="Telemarkieter">Telemarkieter</option>
+<option value="Informatyk">Informatyk</option>
+<option value="Architekt">Architekt</option>
+<option value="Analityk">Analityk</option>
+<option value="Biotechnolog">Biotechnolog</option>
+</select> </center>
+</TD>
+<TD width="500">Jaka jest Twoja ulubione ciastko?
+<br><br>
+<input type="checkbox" name="ciastko" value="k"> BEZA
